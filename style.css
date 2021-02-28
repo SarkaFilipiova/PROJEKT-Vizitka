@@ -2,6 +2,77 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
+body {
+    background-color: #b2bec3;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+}
+
+.ctverec {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 550px;
+    margin: 150px auto;
+    box-shadow: 5px 10px 18px rgb(102, 97, 97);
+}
+
+h1 {
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.eliska {
+    max-width: 150px;
+    border-radius: 60%;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -100px;
+    border: 2px solid white;
+}
+
+.button1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #1da1f2;
+    padding: 10px ;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.button2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #3b5998;
+    padding: 10px ;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.button1:hover {
+    background-color: #0b7bc1;
+}
+
+.button2:hover {
+    background-color: #2b406e;
+}
+
+p {
+    margin-block: 30px;
+}
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
@@ -13,4 +84,3 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
-
