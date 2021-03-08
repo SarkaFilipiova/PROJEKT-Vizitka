@@ -29,12 +29,13 @@ h1 {
     max-width: 150px;
     border-radius: 60%;
     position: absolute;
-    right: -75px;
-    top: -75px;
+    right: 375px;
+    top: 75px;
     border: 3px solid white;
+    box-shadow: 5px 10px 18px rgb(102, 97, 97);
 }
 
-.social-icons {
+.social-icons a {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -52,7 +53,7 @@ h1 {
 }
 
 .button2 {
-    background-color: #1da1f2;
+    background-color: #3b5998
 }
 
 .button1:hover {
@@ -64,7 +65,7 @@ h1 {
 }
 
 p {
-    margin-block: 30px;
+    margin: 30px 0;
 }
 /*
 BARVY:
