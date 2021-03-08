@@ -9,7 +9,7 @@ body {
     text-align: justify;
 }
 
-.ctverec {
+.box {
     background-color: white;
     border-radius: 10px;
     padding: 30px;
@@ -29,37 +29,30 @@ h1 {
     max-width: 150px;
     border-radius: 60%;
     position: absolute;
-    margin-left: 450px;
-    margin-top: -100px;
-    border: 2px solid white;
+    right: -75px;
+    top: -75px;
+    border: 3px solid white;
+}
+
+.social-icons {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px ;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
 }
 
 .button1 {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
     background-color: #1da1f2;
-    padding: 10px ;
-    display: block;
-    text-align: center;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    
+    margin-bottom: 5px; 
 }
 
 .button2 {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #3b5998;
-    padding: 10px ;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
+    background-color: #1da1f2;
 }
 
 .button1:hover {
